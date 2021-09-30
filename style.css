@@ -1,0 +1,219 @@
+
+.container1 {
+    display: flex;
+    background-color: black;
+    border:rgb(64,169,147) solid 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-width: 400px;
+}
+
+.container2 {
+    display: flex;
+    background-color: black;
+    border:rgb(64,169,147) solid 10px;
+    color:white;
+    height: 1500px;
+    margin-top: 10px;
+    flex:1;
+    flex-wrap: wrap;
+}
+
+
+
+.itemMyicon {
+    flex: 1;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.itemTitle {
+    height: 150px;
+    text-align: center;
+    margin-top: -3px;
+    color:white;
+    flex:2;
+    display:inline-table;
+}
+
+.itemContact {
+    color:white;
+    margin-top: 25px;
+    padding-right: 50px;
+    flex:1;
+    text-align: center;
+}
+
+
+h1 {
+    font-family: calibri;
+    font-size: 3em;
+    font-weight: bolder;
+    word-spacing: 30px;
+}
+
+
+h2 {
+    font-family: calibri light;
+    font-size: 14px;
+    margin-top: -25px;
+    word-spacing: 0.5em;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    font-size: 35px;
+    color:darkgreen;
+}
+.contactInfo {
+    list-style-type: none;
+}
+
+.container3 {
+    margin-left: 10px;
+    text-align: justify;
+}
+.container4 {
+    margin-top: 20px;
+    min-height: 500px;
+    display: flex;
+}
+
+.item4 {
+   /* border:rgba(150, 192, 115, 0.534) solid 4px;*/
+    color:honeydew;
+    flex:1;
+    font-size: 20px;
+    line-height: 35px;
+    text-align:justify;
+    padding-left: 20px;
+    padding-right: 30px;
+    margin-left: 10px;
+    /*max-width: 400px;*/
+    /*flex-basis: 40%;*/
+}
+
+.item5 {
+    border:rgba(150, 192, 115, 0.747) solid 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    /*flex-grow:2;*/
+    /*flex-basis: 60%;*/
+    text-align:justify; ;
+}
+
+.item6 {
+    box-sizing: border-box;
+    border:yellow solid 4px;
+    flex:1;
+    text-align:justify; 
+    line-height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 50px;
+    
+}
+
+.skill > li {
+    margin: 1rem 0;
+	display: flex;
+	align-items: center;
+    flex:0 0 100px;
+}
+
+.lineOne { 
+    height: 10px;
+    background-color: gray;
+    width: 300px;
+    position: relative;
+	
+}
+
+.barOne {
+    max-width: 90px;
+    position:relative;
+    height: 10px;
+    background-color: green;
+} 
+
+.lineSecond {
+    position: absolute;
+    height: 10px;
+    background-color: gray;
+    width: 300px;
+}
+
+.barSecond {
+    width: 90px;
+    position: relative;
+    height: 10px;
+    background-color: green;
+}
+
+.lineThree {
+    position: absolute;
+    height: 10px;
+    background-color: gray;
+    width: 300px;
+}
+
+.barThree {
+    width: 10px;
+    position: relative;
+    height: 10px;
+    background-color: green;
+}
+
+.lineFour {
+    position: absolute;
+    height: 10px;
+    background-color: gray;
+    width: 300px;
+}
+
+.barFour {
+    width: 20px;
+    position: relative;
+    height: 10px;
+    background-color: green;
+}
+
+.lineFive {
+    position: absolute;
+    height: 10px;
+    background-color: gray;
+    width: 300px;
+}
+
+.barFive {
+    width: 20px;
+    position: relative;
+    height: 10px;
+    background-color: green;
+}
+
+.lineSix {
+    position: absolute;
+    height: 10px;
+    background-color: gray;
+    width: 300px;
+}
+
+.barSix {
+    width: 10px;
+    position: relative;
+    height: 10px;
+    background-color: green;
+}
+
+.item7 {
+    box-sizing: border-box;
+    border:yellow solid 4px;
+    flex:1;
+    min-height: 500px;
+}
